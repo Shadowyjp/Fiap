@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(20, 20, 20);
+    color:  white;
+    margin: 0px auto;
+    padding: 20px 40px;
+    font-family: Poppins;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#icon_eye {
+    width: 106px;
+    display: flex;
+    align-items: center;
+}
+
+#icon_eye svg {
+    margin-right:  8px;
+}
+
+#icon_menu {
+    width: 106px;
+}
+
+table {
+    border: 1px hidden darkgray;
+    box-shadow: 0 4px 12px 0 rgba(1, 1, 1, 0.2), 0 6px 20px 0 rgba(1, 1, 1, 0.19);
+    margin: 0px auto;
+    padding: 10px 0px;
+    width: 80%;
+}
+
+th, td {
+    padding: 10px 0px;
+    margin: 0px auto;
+    text-align: center;
+    width: 106px;
+}
+
+#listas {
+    width: 50%;
+    margin-top: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+}
+
+#listas ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#listas ul li {
+    display: inline-block;
+    margin: 0px 10px 30px 10px;
+}
+
+#last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    margin: 35px auto 0px auto;
+    box-shadow: 0 -6px 16px 0 rgba(255, 255, 255, 0.2), 0 -8px 24px 0 rgba(255, 255, 255, 0.19);
+}
